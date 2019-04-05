@@ -1,6 +1,6 @@
 .PHONY: build test
 
-IMAGE_NAME=edupo/codenarc
+IMAGE_NAME=v1v1v/codenarc
 TEST_CMD=docker run --rm -v `pwd`/test:/ws -u `id -u`:`id -g` $(IMAGE_NAME)
 
 build:
