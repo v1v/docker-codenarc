@@ -1,4 +1,4 @@
-FROM groovy:2.4
+FROM groovy:2.4-alpine
 
 USER root
 
